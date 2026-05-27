@@ -38,10 +38,11 @@
 			<key>display_name</key>
 			<string>Basecamp 5 %PLATFORM%</string>
 			<key>name</key>
+			<string>%NAME%</string>
 			<key>supported_architectures</key>
 			<array>
 				<string>%ARCHITECTURE%</string>
-			<string>%NAME%</string>
+			</array>
 			<key>unattended_install</key>
 			<true/>
 		</dict>
