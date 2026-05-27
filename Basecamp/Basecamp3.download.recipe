@@ -79,21 +79,6 @@ certificate leaf[subject.OU] = "2WNYUYRS7G"
 			</dict>
 		</dict>
 
-		<!-- Rename downloaded DMG -->
-		<dict>
-			<key>Processor</key>
-			<string>FileMover</string>
-
-			<key>Arguments</key>
-			<dict>
-				<key>source</key>
-				<string>%pathname%</string>
-
-				<key>target</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%-%version%.dmg</string>
-			</dict>
-		</dict>
-
 	</array>
 
 </dict>
